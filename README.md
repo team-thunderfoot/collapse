@@ -29,11 +29,11 @@ This is my second project within npm, it's a simple collapse/expand component
 ### JS Setup
 2 - Import the package
 ```sh
-npm install @andresclua/collapse
+npm install @teamthunderfoot/collapse
 ```
 3 -  the package
 ```sh
-import Collapse from '@andresclua/collapse';
+import Collapse from '@teamthunderfoot/collapse';
 new Collapse()  
 ```
 4 - Your Html should look like this
@@ -48,7 +48,7 @@ new Collapse()
 ### For Nuxt
 1 - Create a file Collapse.js inside plugins folder & add this.
 ```sh
-import Collapse from '@andresclua/collapse';
+import Collapse from '@teamthunderfoot/collapse';
 export default ({ app },inject) => {
     inject('Collapse', () => new Collapse() );
 };
@@ -61,4 +61,4 @@ plugins: [
 ```
 ![awesome](https://media.giphy.com/media/LeikbswJKXOMM/giphy.gif)
 
-[Github Profile](https://github.com/andresclua/)
+[Github Profile](https://github.com/teamthunderfoot/)
