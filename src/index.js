@@ -5,7 +5,11 @@ class Page{
         this.init()
     }
     init(){ 
-        new Collapse()   
+        document.querySelectorAll('[data-ds-element="collapse"]').forEach(element => {
+            new Collapse({
+                element : element
+            })   
+        });
     }
 }
 export default Page;
