@@ -1,10 +1,11 @@
 {
   "name": "@teamthunderfoot/collapse",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Collapse Component",
   "main": "",
   "scripts": {
-    "webpack": "webpack --watch"
+    "webpack": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
